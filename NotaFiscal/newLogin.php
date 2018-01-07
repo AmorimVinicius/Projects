@@ -108,7 +108,7 @@
                     </form>
                 </table>
                 <table id="tabelaCadastroLogin">
-                    <td><input type="submit" class="btn btn-warning" value="Cadastrar" name="cadastrar" onclick="validarSenha();"></td>
+                    <td><input type="submit" class="btn btn-success" value="Cadastrar" name="cadastrar" onclick="validarSenha();"></td>
                     <td><input type="reset" class="btn btn-danger" value="Limpar"></td>
                     <td><input class="btn btn-primary" value="Voltar" onclick="window.location.href='index.php'"></td>   
                 </table>

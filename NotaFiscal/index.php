@@ -41,8 +41,9 @@
                 <form id="formLogin" method="post" action="">
                     <table id="tabelaLogin" align="center">
                         <tr>
-                            <td> <label for="inputUser">Perfil: </label> </td>
+                            <td> <label for="inputPerfil">Perfil: </label> </td>
                             <td>
+                                <select id="inputPerfil">
                                     <option value="analista">Analista</option>
                                     <option value="gestor">Gestor</option>
                                 </select>
@@ -61,7 +62,7 @@
                             <td colspan="2" align="center"><input class="btn btn-warning" name="acessar" type="submit" value="Acessar"></td>                           
                         </tr>
                         <tr>  
-                            <td colspan="2" align="center"><input class="btn btn-success" value="Novo Login" onclick="chamaNewLogin()"></td>                           
+                            <td colspan="2" align="center"><input id="btnNovoLogin" class="btn btn-success" value="Novo Login" onclick="chamaNewLogin()"></td>                           
                         </tr>
                     </table>
                         <!-- verifica se o login e senha estão corretos -->
@@ -80,7 +81,7 @@
                                         header('Location: cadastro.php');
                             // se não estiver correto, é exibida uma mensagem de erro
                                     }else{
-                                        echo "<div class='msgErro' class='alert alert-danger'>
+                                        echo "<div class='alert alert-danger'>
                                                 <button type='button' class='close' data-dismiss='alert'>&times;</button>
                                                 <strong>Usuário ou senha incorretos!</strong>
                                             </div>";

@@ -21,20 +21,16 @@
         border-top: 2px solid #ff6a00;
     }
     /* Inputs */
-    #inputUser, #inputPassword{
+    #inputPerfil, #inputUser, #inputPassword{
         border: 1px solid #ff6a00;
         border-radius: 5px;
         width: 200px;
         padding: 5px;
     }
     /* Botões */
-        .btn-warning, .btn-danger, .btn-primary{
+        .btn-success, .btn-danger, .btn-primary, .btn-default, .btn-warning{
             margin-top: 25px !important;
             width: 110px !important;
-        }
-        .btn-success{
-            margin-left: 20px;
-            width: 110px !important;        
         }
     /* Mensagem - erro login */
     #msgErroAcesso{
@@ -42,6 +38,9 @@
         width: 290px;
         position: absolute;
         left: 39.5%;
+    }
+    #btnNovoLogin{
+        margin-top: -1px !important;
     }
 
 /* index.html ----------------------------------------------------*/
@@ -87,11 +86,8 @@
         color: #ff6a00;
     }  
     #tabelaCadastroBotao{
-        margin-top: 40px;
-    }
-    .btn-default, .btn-success{
-        width: 100px; 
-        margin-right: 20px;
+        border-collapse: separate;
+        border-spacing: 10px 10px;  
     }
     span{
         font-weight: bold;

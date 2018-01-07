@@ -112,12 +112,12 @@
                                 <option value="pendente">Pendente</option>
                             </select>
                         </td>
-                        <tr></tr>
                     </table>
                     <table id="tabelaCadastroBotao">
                         <td><input class="btn btn-success" name="cadastrar" type="submit" value="Cadastrar"></td>
                         <td><input type="reset"class="btn btn-danger" value="Limpar"></td>
-                        <td><input class="btn btn-default" value="Ver NF" onclick="window.location.href='returnDados.php'"></td>
+                        <td><input class="btn btn-warning" value="Ver NF" onclick="window.location.href='returnDados.php'"></td>
+                        <td><input class="btn btn-primary" value="Voltar" onclick="window.location.href='index.php'"></td>
                     </table>
                 </form>
             </div>
