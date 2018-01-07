@@ -1,0 +1,129 @@
+/* index.html ----------------------------------------------------*/
+
+    /* textoInicial */
+    .container{
+        margin: 0 auto;
+    }
+    .textoIndice h1{
+        font-size: 30px;
+        text-transform: uppercase;
+        font-family: robotoregular,sans-serif;
+        color: #ff6a00;
+        text-align: center;
+        margin-top: -50px;
+    }
+    /* tabelaLogin */
+    #tabelaLogin{
+        margin-top: 50px;
+        border-collapse: separate;
+        border-spacing: 10px 10px;
+        border-bottom: 2px solid #ff6a00;
+        border-top: 2px solid #ff6a00;
+    }
+    /* Inputs */
+    #inputUser, #inputPassword{
+        border: 1px solid #ff6a00;
+        border-radius: 5px;
+        width: 200px;
+        padding: 5px;
+    }
+    /* Botões */
+        .btn-warning, .btn-danger, .btn-primary{
+            margin-top: 25px !important;
+            width: 110px !important;
+        }
+        .btn-success{
+            margin-left: 20px;
+            width: 110px !important;        
+        }
+    /* Mensagem - erro login */
+    #msgErroAcesso{
+        margin-top: 20px;
+        width: 290px;
+        position: absolute;
+        left: 39.5%;
+    }
+
+/* index.html ----------------------------------------------------*/
+    /* tabelaCadastroLogin */
+    #tabelaCadastroLogin{
+        border-collapse: separate;
+        border-spacing: 10px 10px;
+    }
+    /* Inputs */
+    #inputUserLogin, #inputPasswordLogin, #inputEmployeeLogin, #inputPasswordConfirm{
+        border: 1px solid #ff6a00;
+        border-radius: 5px;
+        width: 200px;
+        padding: 5px;
+    }
+    #perfil{
+        color: red;
+        margin-top: -10px;
+    }
+
+/* newLogin.html ------------------------------------------------- */
+
+
+/* cadastro.php -------------------------------------------------- */
+    #tabelaCadastro{
+        border-collapse: separate;
+        border-spacing: 10px 10px;
+    }
+    #tabelaCadastro .input{
+        border: 1px solid #ff6a00;
+        border-radius: 5px;
+        width: 500px;
+        padding: 5px;
+    }
+    #tabelaCadastro .data{
+        border: 1px solid #ff6a00;
+        border-radius: 5px;
+        width: 200px;
+        padding: 5px;
+    }
+    .page-header h1{
+        font-family: robotoregular,sans-serif;
+        color: #ff6a00;
+    }  
+    #tabelaCadastroBotao{
+        margin-top: 40px;
+    }
+    .btn-default, .btn-success{
+        width: 100px; 
+        margin-right: 20px;
+    }
+    span{
+        font-weight: bold;
+    }
+/* cadastro.php -------------------------------------------------- */
+
+
+/* returnDados.php -------------------------------------------------- */
+    #tabelaExibe{
+        border-collapse: separate;
+        border-spacing: 10px 10px;
+    }
+    #tabelaExibe td{
+        width:500px;
+    }
+    #tabelaExibe th{
+        font-size: 15px;
+    }
+    #tabelaPesquisar .data{
+        border: 1px solid #ff6a00;
+        border-radius: 5px;
+        width: 150px;
+        padding: 5px;
+    }
+    .search{
+        width: 125px;
+        margin-left: 10px;
+    }
+/* returnDados.php -------------------------------------------------- */
+
+/* searchDados.php ---------------------------------------------------*/
+    .pgto{
+        width: 150px;
+    }
+/* searchDados.php ---------------------------------------------------*/
