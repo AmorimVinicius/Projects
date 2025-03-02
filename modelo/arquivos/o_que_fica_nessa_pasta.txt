@@ -1,0 +1,7 @@
+Arquivos gerados no processo:
+- historico.csv
+- noticias_clusterizadas.csv
+- noticias.csv
+- recomendacoes_usuarios.csv
+- top10_noticias.csv
+- validacao.csv

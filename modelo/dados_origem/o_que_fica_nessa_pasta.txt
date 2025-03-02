@@ -1,0 +1,1 @@
+Todos os arquivos de origem (Treino, Itens e Validação)
